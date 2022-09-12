@@ -1,23 +1,7 @@
 import "./App.css";
-import ParticleBackground from "./ParticleBackground";
-
+import Particles from "react-tsparticles";
 function App() {
-  return (
-    <div>
-      <ParticleBackground />
-      <CenterTitle />
-    </div>
-  );
-}
-
-function CenterTitle() {
-  return (
-    <div id="text_div center_all">
-      <div className="center_all">
-        <h1 className="custom-subTitle">Particle JS Integration</h1>
-      </div>
-    </div>
-  );
+  return <div>hello</div>;
 }
 
 export default App;
